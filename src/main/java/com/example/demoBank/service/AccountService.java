@@ -1,6 +1,6 @@
 package com.example.demoBank.service;
 
-import com.example.Banking.App.entity.Account;
+import com.example.demoBank.entity.Account;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

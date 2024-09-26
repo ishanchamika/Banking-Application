@@ -1,6 +1,6 @@
 package com.example.demoBank.repo;
 
-import com.example.Banking.App.entity.Account;
+import com.example.demoBank.entity.Account;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 //public class AccountRepository extends JpaRepository<Account, long> {

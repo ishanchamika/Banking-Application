@@ -1,7 +1,7 @@
 package com.example.demoBank.service;
 
-import com.example.Banking.App.entity.Account;
-import com.example.Banking.App.repo.AccountRepository;
+import com.example.demoBank.entity.Account;
+import com.example.demoBank.repo.AccountRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -13,7 +13,8 @@ public class AccountServiceImpl implements AccountService
     @Autowired
     AccountRepository repo;
     @Override
-    public Account createAccount(Account account) {
+    public Account createAccount(Account account)
+    {
         Account account_saved =  repo.save(account);
         return  account_saved;
     }
